@@ -1,0 +1,105 @@
+/* .App {
+  text-align: center;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.article {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .article {
+    width: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 480px) {
+  .article {
+    width: calc(100% - 40px);
+  }
+}
+
+.article {
+  transition: transform 0.3s ease-in-out;
+}
+
+.article:hover {
+  transform: translateY(-5px);
+}
+
+.article a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+ */
+ .App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.articles {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article {
+  background: white;
+  color: black;
+  padding: 20px;
+  margin: 10px 0;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.error {
+  color: red;
+}
